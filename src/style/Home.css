@@ -1,0 +1,342 @@
+/* Page not found */
+
+.page{
+    margin-top: 100px;
+}
+
+
+
+
+/* navigation bar  */
+
+
+.p{
+    margin-top: 100px;
+}
+
+/* Home */
+html{
+    scroll-behavior: smooth;
+}
+
+
+.img{
+    width: 400px;
+    height: 220px;
+    /* border-radius: 10px; */
+}
+
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  
+}
+
+html {
+  /* background-color: #ecf9ff; */
+  scroll-behavior: smooth;
+}
+
+/* body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+} */
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+ 
+}
+
+.bt-n {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.bt-n:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+ 
+}
+
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 999;
+  
+}
+
+.card_content {
+  padding: 1rem;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+  z-index: 999;
+}
+.imgg{
+    width: 200px;
+    height: 200px;
+    
+}
+
+/* Contact us  */
+
+
+.contact3 {
+    font-family: "Montserrat", sans-serif;
+    color: #8d97ad;
+    font-weight: 300;
+    
+  }
+  
+  .contact3 h1,
+  .contact3 h2,
+  .contact3 h3,
+  .contact3 h4,
+  .contact3 h5,
+  .contact3 h6 {
+    color: #3e4555;
+  }
+  
+  .contact3 .font-weight-medium {
+    font-weight: 500;
+  }
+  
+  .contact3 .card-shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  }
+  
+  .contact3 .btn-danger-gradiant {
+    background: #ff4d7e;
+    background: -webkit-linear-gradient(legacy-direction(to right), #ff4d7e 0%, #ff6a5b 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#ff4d7e), to(#ff6a5b));
+    background: -webkit-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+    background: -o-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+    background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+  }
+  
+  .contact3 .btn-danger-gradiant:hover {
+    background: #ff6a5b;
+    background: -webkit-linear-gradient(legacy-direction(to right), #ff6a5b 0%, #ff4d7e 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#ff6a5b), to(#ff4d7e));
+    background: -webkit-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+    background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+    background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
+  }
+
+
+  .input--file {
+    position: relative;
+    color: #7f7f7f;
+   
+  }
+  
+  .input--file input[type="file"] {
+    position: absolute;
+    top: 10;
+    left: 0;
+    opacity: 0;
+    width: 25px;
+
+  }
+
+ .card_content-all{
+  padding: 1rem;
+  background-color: #FA8BFF;
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  cursor: pointer;
+  animation: myAnim 2s ease 0s 1 normal forwards;
+  
+ }
+
+ .card_content-all:hover{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  transform: translate(2px, -21px);
+ }
+
+ @keyframes myAnim {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+.card_btn{
+  border-radius: 2px;
+  background-color: #0093E9 !important;
+}
+.all-img{
+  border-radius: 10px;
+  width: 400px;
+  height: 250px;
+}
+.creat{
+  margin-left: 40px;
+}
+
+.pic{
+  background-image: url('https://img.freepik.com/free-photo/pieces-blue-stationery_23-2148169528.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+.All{
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+.logo{
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+}
+.link:hover {
+  background-color: #0093E9;
+  color: white !important;
+  border-radius: 10px;
+  margin-left: 10px !important;
+  padding-left: 5px !important;
+
+}
+.git{
+text-decoration: none;
+}
+.mod-file {
+  width: 470px !important;
+  margin-left: -1px !important;
+}
+.profile {
+  width: 170px !important;
+  height: 170px !important;
+}

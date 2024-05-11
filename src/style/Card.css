@@ -1,0 +1,42 @@
+.cards__footer {
+    display: flex;
+    padding: 1rem;
+  }
+  
+  .users {
+    display: flex;
+    gap: .2rem;
+    margin-left: -20px;
+  }
+  
+  .users__image {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  
+    
+
+  }
+  
+  .users__info > small {
+    color: #666;
+    margin-bottom: 2px;
+  }
+  .modal-header {
+    height: 60px !important;
+  }
+  .small{
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .post-date{
+    margin-left: 10px;
+  }
+  body{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+  }
+  .inp{
+    width: 400px !important;
+  }
